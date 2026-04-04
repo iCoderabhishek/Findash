@@ -1,0 +1,82 @@
+{
+  "transactions": [
+    { "id": 1, "date": "2023-05-17", "amount": 160.00, "category": "Housing", "type": "Expense" },
+    { "id": 2, "date": "2023-05-16", "amount": 2400.00, "category": "Salary", "type": "Income" },
+    { "id": 3, "date": "2023-05-15", "amount": 50.00, "category": "Food", "type": "Expense" },
+    { "id": 4, "date": "2023-05-14", "amount": 15.00, "category": "Transport", "type": "Expense" },
+    { "id": 5, "date": "2023-05-12", "amount": 350.00, "category": "Freelance", "type": "Income" },
+    { "id": 6, "date": "2023-04-10", "amount": 1100.00, "category": "Housing", "type": "Expense" },
+    { "id": 7, "date": "2023-04-12", "amount": 45.00, "category": "Food", "type": "Expense" }
+  ],
+  "cards": [
+    {
+      "title": "Total Balance",
+      "amount": "$21,430.00",
+      "change": "+2.5%",
+      "isPositive": true,
+      "iconName": "PiWallet",
+      "color": "text-accent-blue",
+      "bgColor": "bg-accent-blue-light"
+    },
+    {
+      "title": "Total Income",
+      "amount": "$2,750.00",
+      "change": "+4.2%",
+      "isPositive": true,
+      "iconName": "PiArrowUpRight",
+      "color": "text-success",
+      "bgColor": "bg-success-light"
+    },
+    {
+      "title": "Total Expenses",
+      "amount": "$1,320.00",
+      "change": "-1.1%",
+      "isPositive": false,
+      "iconName": "PiArrowDownRight",
+      "color": "text-danger",
+      "bgColor": "bg-danger-light"
+    }
+  ],
+  "insights": [
+    {
+      "title": "Highest Spending",
+      "value": "Housing",
+      "detail": "$1,260.00 total",
+      "iconName": "PiShoppingBag",
+      "color": "text-warning",
+      "bgColor": "bg-warning/10"
+    },
+    {
+      "title": "Monthly Comparison",
+      "value": "Stable Spending",
+      "detail": "Similar to last month",
+      "iconName": "PiTrendUp",
+      "color": "text-accent-blue",
+      "bgColor": "bg-accent-blue-light"
+    },
+    {
+      "title": "Total Expenses",
+      "value": "$1,320.00",
+      "detail": "All time",
+      "iconName": "PiWarningCircle",
+      "color": "text-danger",
+      "bgColor": "bg-danger/10"
+    }
+  ],
+  "chartData": {
+    "balanceData": [
+      { "name": "04-10", "balance": 18900 },
+      { "name": "04-12", "balance": 18855 },
+      { "name": "05-12", "balance": 19205 },
+      { "name": "05-14", "balance": 19190 },
+      { "name": "05-15", "balance": 19140 },
+      { "name": "05-16", "balance": 21540 },
+      { "name": "05-17", "balance": 21430 }
+    ],
+    "categoryData": [
+      { "name": "Housing", "value": 1260 },
+      { "name": "Food", "value": 95 },
+      { "name": "Transport", "value": 15 }
+    ]
+  }
+}
