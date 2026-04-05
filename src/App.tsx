@@ -1,16 +1,18 @@
-import Navbar from "./components/ui/Navbar"
-import Content from "./components/ui/Content"
-import MainLayout from "./layouts/MainLayout"
-import { DashboardProvider } from "./store/DashboardContext"
+import MainLayout from '@/layouts/main-layout'
+import DashboardContent from '@/features/dashboard/components/dashboard-content'
+import { TooltipProvider } from '@/components/ui/tooltip'
+import { useDashboard } from '@/store/dashboard-store'
 
 function App() {
+  const theme = useDashboard(s => s.theme)
+  document.documentElement.classList.toggle('dark', theme === 'dark')
+
   return (
-    <DashboardProvider>
+    <TooltipProvider delayDuration={200}>
       <MainLayout>
-        <Navbar />
-        <Content />
+        <DashboardContent />
       </MainLayout>
-    </DashboardProvider>
+    </TooltipProvider>
   )
 }
 
