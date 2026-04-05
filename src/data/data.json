@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "appName": "FinDash",
+    "totalTransactions": 9968
+  },
+  "summaryCards": [
+    { "key": "total-spent", "title": "Total spent", "amount": "₹3,42,150", "change": "+2.4%", "isPositive": true, "iconName": "money" },
+    { "key": "income", "title": "Income", "amount": "₹4,85,000", "change": "+12.5%", "isPositive": true, "iconName": "trending-up" },
+    { "key": "benefits", "title": "Benefits", "amount": "₹1,42,850", "change": "+5.1%", "isPositive": true, "iconName": "gift" },
+    { "key": "costs", "title": "Costs", "amount": "₹18,420", "change": "-8.3%", "isPositive": false, "iconName": "credit-card" }
+  ],
+  "chartData": {
+    "daily": [
+      { "name": "6AM", "balance": 72400 },
+      { "name": "9AM", "balance": 71800 },
+      { "name": "12PM", "balance": 74500 },
+      { "name": "3PM", "balance": 73200 },
+      { "name": "6PM", "balance": 78900 },
+      { "name": "9PM", "balance": 77100 },
+      { "name": "12AM", "balance": 82350 }
+    ],
+    "monthly": [
+      { "name": "Week 1", "balance": 92000 },
+      { "name": "Week 2", "balance": 84500 },
+      { "name": "Week 3", "balance": 78200 },
+      { "name": "Week 4", "balance": 71300 }
+    ],
+    "yearly": [
+      { "name": "Jan", "balance": 42000 },
+      { "name": "Feb", "balance": 38500 },
+      { "name": "Mar", "balance": 45200 },
+      { "name": "Apr", "balance": 41800 },
+      { "name": "May", "balance": 52300 },
+      { "name": "Jun", "balance": 48100 },
+      { "name": "Jul", "balance": 55400 },
+      { "name": "Aug", "balance": 51900 },
+      { "name": "Sep", "balance": 61200 },
+      { "name": "Oct", "balance": 57800 },
+      { "name": "Nov", "balance": 68300 },
+      { "name": "Dec", "balance": 82350 }
+    ]
+  },
+  "pieData": [
+    { "name": "Rent & Housing", "value": 156000 },
+    { "name": "Groceries & Food", "value": 72400 },
+    { "name": "Subscriptions", "value": 18420 },
+    { "name": "Savings", "value": 142850 }
+  ],
+  "financialStats": [
+    { "title": "Opening balance", "amount": "₹62,450", "change": "4.2%", "isPositive": true },
+    { "title": "Credits this month", "amount": "₹4,85,000", "change": "12.5%", "isPositive": true },
+    { "title": "Debits this month", "amount": "-₹3,42,150", "change": "2.1%", "isPositive": false },
+    { "title": "Closing balance", "amount": "₹2,05,300", "change": "8.7%", "isPositive": true }
+  ],
+  "totalIncome": {
+    "amount": "₹4,85,000",
+    "change": "12.5%",
+    "isPositive": true
+  },
+  "transactions": [
+    { "id": 1, "date": "2025-04-01", "amount": 45000, "category": "Salary", "type": "Income" },
+    { "id": 2, "date": "2025-04-02", "amount": 15000, "category": "Rent", "type": "Expense" },
+    { "id": 3, "date": "2025-04-03", "amount": 2450, "category": "Groceries", "type": "Expense" },
+    { "id": 4, "date": "2025-04-04", "amount": 799, "category": "Netflix", "type": "Expense" },
+    { "id": 5, "date": "2025-04-05", "amount": 12000, "category": "Freelance", "type": "Income" },
+    { "id": 6, "date": "2025-04-06", "amount": 3200, "category": "Electricity", "type": "Expense" },
+    { "id": 7, "date": "2025-04-07", "amount": 1850, "category": "Groceries", "type": "Expense" },
+    { "id": 8, "date": "2025-04-08", "amount": 499, "category": "Spotify", "type": "Expense" },
+    { "id": 9, "date": "2025-04-09", "amount": 5500, "category": "Dining", "type": "Expense" },
+    { "id": 10, "date": "2025-04-10", "amount": 8500, "category": "Freelance", "type": "Income" },
+    { "id": 11, "date": "2025-04-11", "amount": 1200, "category": "Transport", "type": "Expense" },
+    { "id": 12, "date": "2025-04-12", "amount": 4500, "category": "Shopping", "type": "Expense" },
+    { "id": 13, "date": "2025-04-13", "amount": 25000, "category": "Savings", "type": "Expense" },
+    { "id": 14, "date": "2025-04-14", "amount": 950, "category": "Medicine", "type": "Expense" },
+    { "id": 15, "date": "2025-04-15", "amount": 45000, "category": "Salary", "type": "Income" },
+    { "id": 16, "date": "2025-04-16", "amount": 2100, "category": "Mobile Recharge", "type": "Expense" },
+    { "id": 17, "date": "2025-04-17", "amount": 6800, "category": "Insurance", "type": "Expense" },
+    { "id": 18, "date": "2025-04-18", "amount": 15000, "category": "Rent", "type": "Expense" },
+    { "id": 19, "date": "2025-04-19", "amount": 3400, "category": "Groceries", "type": "Expense" },
+    { "id": 20, "date": "2025-04-20", "amount": 7500, "category": "Freelance", "type": "Income" }
+  ],
+  "insights": [
+    { "title": "Highest Spending", "value": "Rent & Housing", "detail": "₹30,000 this month", "iconName": "ShoppingBag" },
+    { "title": "Monthly Comparison", "value": "Spending up 2.4%", "detail": "vs last month", "iconName": "TrendUp" },
+    { "title": "Total Expenses", "value": "₹3,42,150", "detail": "This month", "iconName": "WarningCircle" }
+  ]
+}

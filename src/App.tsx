@@ -1,12 +1,18 @@
-
-
+import MainLayout from '@/layouts/main-layout'
+import DashboardContent from '@/features/dashboard/components/dashboard-content'
+import { TooltipProvider } from '@/components/ui/tooltip'
+import { useDashboard } from '@/store/dashboard-store'
 
 function App() {
+  const theme = useDashboard(s => s.theme)
+  document.documentElement.classList.toggle('dark', theme === 'dark')
 
   return (
-    <>
-      <h1 className='text-2xl text-center text-white translate-y-1/2 font-mono mt-10'>Hi there, this is me <span className='text-red-500 underline decoration-red-500'>Abhishek</span>, Starting this project!</h1>
-    </>
+    <TooltipProvider delayDuration={200}>
+      <MainLayout>
+        <DashboardContent />
+      </MainLayout>
+    </TooltipProvider>
   )
 }
 
