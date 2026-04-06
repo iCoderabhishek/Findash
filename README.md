@@ -6,6 +6,8 @@ A clean, minimal finance dashboard to track spending, income, and cash flow at a
 
 **Demo** --
 
+[![Watch Demo](https://img.youtube.com/vi/YlBIogl5JLs/maxresdefault.jpg)](https://youtu.be/YlBIogl5JLs)
+
 ---
 
 ## Features
