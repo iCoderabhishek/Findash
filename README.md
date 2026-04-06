@@ -69,3 +69,4 @@ cd findash && bun i && bun dev
 - [Zustand](https://zustand.docs.pmnd.rs/) -- state management
 - [Dribbble finance dashboards](https://dribbble.com/search/finance-dashboard) -- design reference
 - [Radix Primitives](https://www.radix-ui.com/) -- accessible UI primitives
+- [Figma inspirations](https://www.figma.com/design/biOHl37ydThdJ0Cs6NkqLO/design-inspirations?m=auto&t=wthqEY1LGcQEOMLT-1) -- design inspirations
