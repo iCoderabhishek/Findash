@@ -1,12 +1,13 @@
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Download01Icon, MoonIcon, SunIcon } from '@hugeicons/core-free-icons'
 import { useDashboard } from '@/store/dashboard-store'
+import { exportTransactionsCsv } from '@/features/transactions/utils/export-csv'
 import { cn } from '@/lib/utils'
 import { Button } from './button'
 import { Tooltip, TooltipContent, TooltipTrigger } from './tooltip'
 
 export default function TopBar() {
-  const { role, setRole, theme, toggleTheme } = useDashboard()
+  const { role, setRole, theme, toggleTheme, transactions } = useDashboard()
 
   return (
     <header className="h-14 bg-background/80 backdrop-blur-md flex items-center justify-between px-8 sticky top-0 z-10 transition-all duration-300">
@@ -19,7 +20,7 @@ export default function TopBar() {
       <div className="flex items-center gap-3">
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="ghost" size="icon-sm" className="rounded-full">
+            <Button variant="ghost" size="icon-sm" className="rounded-full" onClick={() => exportTransactionsCsv(transactions)}>
               <HugeiconsIcon icon={Download01Icon} size={16} />
             </Button>
           </TooltipTrigger>
